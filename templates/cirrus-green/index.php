@@ -10,13 +10,13 @@ defined('_JEXEC') or die('Restricted access');
 $document = JFactory::getDocument();
 $document->addStyleSheet($this->baseurl . '/templates/system/css/system.css');
 $document->addStyleSheet($this->baseurl . '/templates/system/css/general.css');
-$document->addStyleSheet($this->baseurl . '/templates/' . $this->template .'/css/fontawesome-all.min.css');
-$document->addStyleSheet($this->baseurl . '/templates/' . $this->template .'/css/bootstrap.min.css');
-$document->addStyleSheet($this->baseurl . '/templates/' . $this->template .'/css/template.css');
-$document->addScript($this->baseurl . '/templates/' . $this->template .'/js/sfhover.js');
-$document->addScript($this->baseurl . '/templates/' . $this->template .'/js/jquery-1.11.3.js');
-$document->addScript($this->baseurl . '/templates/' . $this->template .'/js/bootstrap.min.js');
-$document->addScript($this->baseurl . '/templates/' . $this->template .'/js/script_main.js');
+$document->addStyleSheet($this->baseurl . '/templates/' . $this->template . '/css/fontawesome-all.min.css');
+$document->addStyleSheet($this->baseurl . '/templates/' . $this->template . '/css/bootstrap.min.css');
+$document->addStyleSheet($this->baseurl . '/templates/' . $this->template . '/css/template.css');
+$document->addScript($this->baseurl . '/templates/' . $this->template . '/js/sfhover.js');
+$document->addScript($this->baseurl . '/templates/' . $this->template . '/js/jquery-1.11.3.js');
+$document->addScript($this->baseurl . '/templates/' . $this->template . '/js/bootstrap.min.js');
+$document->addScript($this->baseurl . '/templates/' . $this->template . '/js/script_main.js');
 
 $LeftMenuOn = $this->countModules('position-7');
 $RightMenuOn = $this->countModules('position-6');
@@ -46,9 +46,11 @@ if ($LeftMenuOn and $RightMenuOn) {
 <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="<?= $this->language; ?>" lang="<?= $this->language; ?>" dir="<?= $this->direction; ?>">
 
 <head>
-    <script type="text/javascript">var home = '<?= $home ?>';</script>
+    <script type="text/javascript">
+        var home = '<?= $home ?>';
+    </script>
     <jdoc:include type="head" />
-    <meta name="viewport" content="width=device-width, user-scalable=no"/>
+    <meta name="viewport" content="width=device-width, user-scalable=no" />
 </head>
 
 <body>
@@ -58,11 +60,18 @@ if ($LeftMenuOn and $RightMenuOn) {
         <div id="header_wrap">
             <div id="header">
 
+                <?php if ($this->countModules('position-0')) : ?>
+                    <div id="search_wrap">
+                        <div id="search">
+                            <jdoc:include type="modules" name="position-0" />
+                        </div>
+                    </div>
+                <?php endif; ?>
                 <!-- Logo -->
-                <div id="logo" class="white">
+                <div id="logo">
                     <?php if ($logo && $logoimage == 1) : ?>
                         <a href="<?= $this->baseurl ?>">
-                            <img src="<?= htmlspecialchars($logo); ?>" alt="<?= $sitename; ?>" />
+                            <img src="<?= htmlspecialchars($logo); ?>" alt="<?= $sitename; ?>" width="190px" />
                         </a>
                     <?php endif; ?>
                     <?php if (!$logo || $logoimage == 0) : ?>
@@ -83,13 +92,6 @@ if ($LeftMenuOn and $RightMenuOn) {
                 </div>
 
                 <div class="menutop">
-                    <?php if ($this->countModules('position-0')) : ?>
-                        <div id="search_wrap">
-                            <div id="search">
-                                <jdoc:include type="modules" name="position-0" />
-                            </div>
-                        </div>
-                    <?php endif; ?>
                     <?php if ($this->countModules('position-15')) : ?>
                         <div id="right_menu">
                             <jdoc:include type="modules" name="position-15" />

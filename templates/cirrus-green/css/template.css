@@ -1,80 +1,26 @@
 @font-face {
-    font-family: 'Catamaran';
-    src: url('../css/fonts/Catamaran-ExtraBold.eot');
-    src: url('../css/fonts/Catamaran-ExtraBold.eot?#iefix') format('embedded-opentype'), url('../css/fonts/Catamaran-ExtraBold.woff2') format('woff2'), url('../css/fonts/Catamaran-ExtraBold.woff') format('woff'), url('../css/fonts/Catamaran-ExtraBold.ttf') format('truetype'), url('../css/fonts/Catamaran-ExtraBold.svg#Catamaran-ExtraBold') format('svg');
-    font-weight: 800;
-    font-style: normal;
-    font-display: swap;
-}
-
-@font-face {
-    font-family: 'Catamaran';
-    src: url('../css/fonts/Catamaran-Thin.eot');
-    src: url('../css/fonts/Catamaran-Thin.eot?#iefix') format('embedded-opentype'), url('../css/fonts/Catamaran-Thin.woff2') format('woff2'), url('../css/fonts/Catamaran-Thin.woff') format('woff'), url('../css/fonts/Catamaran-Thin.ttf') format('truetype'), url('../css/fonts/Catamaran-Thin.svg#Catamaran-Thin') format('svg');
-    font-weight: 100;
-    font-style: normal;
-    font-display: swap;
-}
-
-@font-face {
-    font-family: 'Catamaran';
-    src: url('../css/fonts/Catamaran-SemiBold.eot');
-    src: url('../css/fonts/Catamaran-SemiBold.eot?#iefix') format('embedded-opentype'), url('../css/fonts/Catamaran-SemiBold.woff2') format('woff2'), url('../css/fonts/Catamaran-SemiBold.woff') format('woff'), url('../css/fonts/Catamaran-SemiBold.ttf') format('truetype'), url('../css/fonts/Catamaran-SemiBold.svg#Catamaran-SemiBold') format('svg');
-    font-weight: 600;
-    font-style: normal;
-    font-display: swap;
-}
-
-@font-face {
-    font-family: 'Catamaran';
-    src: url('../css/fonts/Catamaran-Black.eot');
-    src: url('../css/fonts/Catamaran-Black.eot?#iefix') format('embedded-opentype'), url('../css/fonts/Catamaran-Black.woff2') format('woff2'), url('../css/fonts/Catamaran-Black.woff') format('woff'), url('../css/fonts/Catamaran-Black.ttf') format('truetype'), url('../css/fonts/Catamaran-Black.svg#Catamaran-Black') format('svg');
-    font-weight: 900;
-    font-style: normal;
-    font-display: swap;
-}
-
-@font-face {
-    font-family: 'Catamaran';
-    src: url('../css/fonts/Catamaran-Bold.eot');
-    src: url('../css/fonts/Catamaran-Bold.eot?#iefix') format('embedded-opentype'), url('../css/fonts/Catamaran-Bold.woff2') format('woff2'), url('../css/fonts/Catamaran-Bold.woff') format('woff'), url('../css/fonts/Catamaran-Bold.ttf') format('truetype'), url('../css/fonts/Catamaran-Bold.svg#Catamaran-Bold') format('svg');
+    font-family: 'Semplicita';
+    src: url('../css/fonts/Semplicita-Bold.eot');
+    src: url('../css/fonts/Semplicita-Bold.eot?#iefix') format('embedded-opentype'), url('../css/fonts/Semplicita-Bold.woff2') format('woff2'), url('../css/fonts/Semplicita-Bold.woff') format('woff'), url('../css/fonts/Semplicita-Bold.ttf') format('truetype'), url('../css/fonts/Semplicita-Bold.svg#Semplicita-Bold') format('svg');
     font-weight: bold;
     font-style: normal;
     font-display: swap;
 }
 
 @font-face {
-    font-family: 'Catamaran';
-    src: url('../css/fonts/Catamaran-Medium.eot');
-    src: url('../css/fonts/Catamaran-Medium.eot?#iefix') format('embedded-opentype'), url('../css/fonts/Catamaran-Medium.woff2') format('woff2'), url('../css/fonts/Catamaran-Medium.woff') format('woff'), url('../css/fonts/Catamaran-Medium.ttf') format('truetype'), url('../css/fonts/Catamaran-Medium.svg#Catamaran-Medium') format('svg');
-    font-weight: 500;
-    font-style: normal;
-    font-display: swap;
-}
-
-@font-face {
-    font-family: 'Catamaran';
-    src: url('../css/fonts/Catamaran-Regular.eot');
-    src: url('../css/fonts/Catamaran-Regular.eot?#iefix') format('embedded-opentype'), url('../css/fonts/Catamaran-Regular.woff2') format('woff2'), url('../css/fonts/Catamaran-Regular.woff') format('woff'), url('../css/fonts/Catamaran-Regular.ttf') format('truetype'), url('../css/fonts/Catamaran-Regular.svg#Catamaran-Regular') format('svg');
-    font-weight: normal;
-    font-style: normal;
-    font-display: swap;
-}
-
-@font-face {
-    font-family: 'Catamaran';
-    src: url('../css/fonts/Catamaran-Light.eot');
-    src: url('../css/fonts/Catamaran-Light.eot?#iefix') format('embedded-opentype'), url('../css/fonts/Catamaran-Light.woff2') format('woff2'), url('../css/fonts/Catamaran-Light.woff') format('woff'), url('../css/fonts/Catamaran-Light.ttf') format('truetype'), url('../css/fonts/Catamaran-Light.svg#Catamaran-Light') format('svg');
+    font-family: 'Semplicita';
+    src: url('../css/fonts/Semplicita-Light.eot');
+    src: url('../css/fonts/Semplicita-Light.eot?#iefix') format('embedded-opentype'), url('../css/fonts/Semplicita-Light.woff2') format('woff2'), url('../css/fonts/Semplicita-Light.woff') format('woff'), url('../css/fonts/Semplicita-Light.ttf') format('truetype'), url('../css/fonts/Semplicita-Light.svg#Semplicita-Light') format('svg');
     font-weight: 300;
     font-style: normal;
     font-display: swap;
 }
 
 @font-face {
-    font-family: 'Catamaran';
-    src: url('../css/fonts/Catamaran-ExtraLight.eot');
-    src: url('../css/fonts/Catamaran-ExtraLight.eot?#iefix') format('embedded-opentype'), url('../css/fonts/Catamaran-ExtraLight.woff2') format('woff2'), url('../css/fonts/Catamaran-ExtraLight.woff') format('woff'), url('../css/fonts/Catamaran-ExtraLight.ttf') format('truetype'), url('../css/fonts/Catamaran-ExtraLight.svg#Catamaran-ExtraLight') format('svg');
-    font-weight: 200;
+    font-family: 'Semplicita';
+    src: url('../css/fonts/Semplicita-Medium.eot');
+    src: url('../css/fonts/Semplicita-Medium.eot?#iefix') format('embedded-opentype'), url('../css/fonts/Semplicita-Medium.woff2') format('woff2'), url('../css/fonts/Semplicita-Medium.woff') format('woff'), url('../css/fonts/Semplicita-Medium.ttf') format('truetype'), url('../css/fonts/Semplicita-Medium.svg#Semplicita-Medium') format('svg');
+    font-weight: normal;
     font-style: normal;
     font-display: swap;
 }
@@ -247,9 +193,10 @@ html {
 body {
     height: 100%;
     text-align: left;
-    font-family: 'Catamaran', 'Droid Sans', sans-serif, Helvetica, Arial;
+    font-family: 'Josefin Sans', 'Droid Sans', sans-serif, Helvetica, Arial;
     font-size: 18px;
     color: #444242;
+    font-weight: normal;
 }
 
 a {
@@ -280,8 +227,8 @@ p {
 }
 
 h1 {
-    font-family: 'Josefin Sans', 'Droid Sans', sans-serif, Helvetica, Arial;
-    font-weight: 400;
+    font-family: 'Semplicita', 'Droid Sans', sans-serif, Helvetica, Arial;
+    font-weight: normal;
     color: #90c140;
     font-size: 26px;
     line-height: 1.15em;
@@ -299,8 +246,8 @@ h1 a:hover {
 }
 
 h2 {
-    font-family: 'Josefin Sans', 'Droid Sans', sans-serif, Helvetica, Arial;
-    font-weight: 400;
+    font-family: 'Semplicita', 'Droid Sans', sans-serif, Helvetica, Arial;
+    font-weight: normal;
     color: #000;
     font-size: 24px;
     line-height: 1.15em;
@@ -318,8 +265,8 @@ h2 a:hover {
 }
 
 h3 {
-    font-family: 'Josefin Sans', 'Droid Sans', sans-serif, Helvetica, Arial;
-    font-weight: 400;
+    font-family: 'Semplicita', 'Droid Sans', sans-serif, Helvetica, Arial;
+    font-weight: normal;
     color: #000;
     font-size: 20px;
     line-height: 1.15em;
@@ -399,19 +346,19 @@ hr {
     width: auto;
     padding: 8px 20px 5px 20px;
     float: right;
-    background-color: #004b81;
+    background-color: #504f51;
     color: #FFF;
     cursor: pointer;
     margin-bottom: 13px;
     border: 0;
-    font-family: 'Catamaran';
+    border-radius: 5px;
+    font-family: 'Josefin Sans';
     font-size: 20px;
     line-height: 1;
-    border-radius: 0;
 }
 
 #contact-form button.validate:hover, #login-form input.button:hover, #mailto-window button:hover, #member-profile button.validate:hover, #member-registration button.validate:hover, #searchForm button:hover, #user-registration button.validate:hover, .btn:hover, .login button:hover, .logout button:hover {
-    background-color: #003e6b;
+    background-color: #000;
 }
 
 p.link-c {
@@ -430,6 +377,10 @@ p.link-c {
     left: 0;
     z-index: 9999;
     transition: all .2s;
+    background-image: url('../../../images/vintage_texture.jpg');
+    background-position: top center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 #header {
@@ -440,12 +391,9 @@ p.link-c {
 }
 
 #logo {
-    float: left;
-    padding: 8px 0 0 15px;
-}
-
-#logo.white {
-    filter: brightness(0) invert(1);
+    display: table;
+    margin: auto;
+    padding: 10px;
 }
 
 #logo a {
@@ -460,8 +408,8 @@ p.link-c {
 }
 
 #search_wrap {
-    width: 100%;
-    display: table;
+    position: absolute;
+    right: 0;
 }
 
 .customcabecalho {
@@ -490,17 +438,17 @@ p.link-c {
     color: #fff;
     font-size: 14px;
     line-height: 1;
-    font-family: 'Catamaran';
+    font-family: 'Josefin Sans';
     text-decoration: none;
     vertical-align: middle;
 }
 
 .customcabecalho address a:hover {
-    font-family: 'Catamaran';
+    font-family: 'Josefin Sans';
 }
 
 .customcabecalho a:hover {
-    font-family: 'Catamaran';
+    font-family: 'Josefin Sans';
 }
 
 #search label.element-invisible {
@@ -539,8 +487,8 @@ p.link-c {
 }
 
 .menutop {
-    float: right;
     position: relative;
+    width: 100%;
 }
 
 #right_menu {
@@ -548,9 +496,7 @@ p.link-c {
     margin-left: 40px;
 }
 
-#topmenu_wrap {
-    float: right;
-}
+#topmenu_wrap {}
 
 #topmenu ul {
     padding: 0;
@@ -559,33 +505,41 @@ p.link-c {
 }
 
 #topmenu span, #topmenu a {
-    font-size: 18px;
-    font-weight: 500;
+    font-size: 20px;
     display: block;
-    color: #fff;
+    color: #67666a;
     text-decoration: none;
     padding-bottom: 3px;
     text-transform: uppercase;
     border-bottom: 1px solid transparent;
     cursor: pointer;
     line-height: 1.2;
+    font-family: 'Semplicita';
+    font-weight: normal;
 }
 
 #topmenu a:hover {
-    border-bottom: 1px solid #fff;
+    font-weight: 500;
+    color: #000;
 }
 
-#topmenu li.active a, #topmenu li.active a:hover {
-    color: #fff;
+#topmenu span:hover {
+    font-weight: 500;
+    color: #000;
+    cursor: pointer;
+}
+
+#topmenu li.active a, #topmenu li.active a:hover, #topmenu li.active span, #topmenu li.active span:hover, #topmenu li:hover span {
+    color: #000;
     text-decoration: none;
-    font-family: 'Catamaran';
-    border: 0;
-    font-weight: 600;
+    font-weight: 500;
 }
 
 #topmenu li {
-    float: left;
-    padding: 5px 15px;
+    flex: 1;
+    text-align: center;
+    justify-content: center;
+    align-self: center;
 }
 
 #topmenu li ul {
@@ -682,7 +636,7 @@ p.link-c {
 
 #leftmenu a, #rightmenu a {
     color: #003c21;
-    font-family: 'Catamaran';
+    font-family: 'Josefin Sans';
     font-size: 24px;
     line-height: 1.2;
     text-decoration: none;
@@ -720,7 +674,7 @@ p.link-c {
 }
 
 #leftmenu li.current a, #rightmenu li.current a {
-    font-family: 'Catamaran';
+    font-family: 'Josefin Sans';
 }
 
 #leftmenu li.current a:hover, #rightmenu li.current a:hover {
@@ -744,7 +698,7 @@ p.link-c {
 #topnav div.moduletable h3 {
     margin: 60px 0 0 0;
     font-size: 40px;
-    font-family: 'Catamaran';
+    font-family: 'Josefin Sans';
     text-transform: uppercase;
     color: #003c21;
 }
@@ -1082,7 +1036,7 @@ li.next, li.pagenav-next {
     padding-right: 6px;
     margin-left: 0;
     margin-right: 6px;
-    font-family: 'Catamaran';
+    font-family: 'Josefin Sans';
     color: #bcd1a1;
     font-size: 18px;
 }
@@ -1092,7 +1046,7 @@ li.next, li.pagenav-next {
     padding-right: 6px;
     margin-left: 0;
     margin-right: 6px;
-    font-family: 'Catamaran';
+    font-family: 'Josefin Sans';
     color: #437a0e;
     font-size: 18px;
     text-decoration: none;
@@ -1120,7 +1074,7 @@ li.next, li.pagenav-next {
 
 p.counter {
     color: #003c21!important;
-    font-family: 'Catamaran'!important;
+    font-family: 'Josefin Sans'!important;
     font-size: 16px!important;
     padding: 8px;
     text-align: center;
@@ -1202,14 +1156,11 @@ p.counter {
 }
 
 #login-form input.inputbox, #modlgn-passwd, #modlgn-username {
-    width: 80%;
-    margin-left: 0;
-    padding: 6px;
-    padding-right: 24px;
-    -moz-border-radius: 3px;
-    -webkit-border-radius: 3px;
+    width: 100%;
+    margin: 0 0 5px 0;
+    padding: 5px 15px;
     border-radius: 3px;
-    border: 1px solid #e2e2e2;
+    border: 0;
     outline: 0;
 }
 
@@ -1600,14 +1551,13 @@ a.feed-link {
     margin: auto;
     padding: 5px 0;
     text-align: center;
-    color: #fff;
+    color: #000;
     position: relative;
     font-size: 14px;
 }
 
 .copyrightint strong {
     font-weight: 400;
-    font-family: 'Catamaran';
     text-transform: uppercase;
 }
 
@@ -1619,7 +1569,6 @@ a.feed-link {
 #box_wrap {
     width: 100%;
     display: table;
-    background-color: #e07701;
     background-position: top center;
     background-size: cover;
 }
@@ -1914,13 +1863,13 @@ body.contentpane a:hover {
 
 .custommenu-site-map>div ul li a {
     color: #fff;
-    font-family: 'Catamaran';
+    font-family: 'Josefin Sans';
     font-size: 18px;
     text-decoration: none;
 }
 
 .custommenu-site-map>div ul li.active a {
-    font-family: 'Catamaran';
+    font-family: 'Josefin Sans';
 }
 
 .custommenu-site-map>div ul li ul li {
@@ -1929,7 +1878,7 @@ body.contentpane a:hover {
 
 .custommenu-site-map>div ul li ul li a {
     color: #fff;
-    font-family: 'Catamaran';
+    font-family: 'Josefin Sans';
     font-size: 16px;
     text-decoration: none;
 }
@@ -1942,7 +1891,7 @@ body.contentpane a:hover {
 
 .moduletable-localizacao h3 {
     color: #fff;
-    font-family: 'Catamaran';
+    font-family: 'Josefin Sans';
     font-size: 30px;
     text-decoration: none;
     text-align: center;
@@ -1951,7 +1900,7 @@ body.contentpane a:hover {
 
 .custom-localizacao h4 {
     color: #fff;
-    font-family: 'Catamaran';
+    font-family: 'Josefin Sans';
     font-size: 18px;
     text-decoration: none;
     text-align: center;
@@ -1962,7 +1911,7 @@ body.contentpane a:hover {
 
 .custom-localizacao p {
     color: #fff;
-    font-family: 'Catamaran';
+    font-family: 'Josefin Sans';
     font-size: 18px;
     text-decoration: none;
     text-align: center;
@@ -2014,7 +1963,7 @@ body.contentpane a:hover {
 
 .moduletable-newsletter .acym_introtext {
     color: #fff;
-    font-family: 'Catamaran';
+    font-family: 'Josefin Sans';
     font-size: 20px;
     margin-bottom: 20px;
 }
@@ -2029,7 +1978,7 @@ body.contentpane a:hover {
     padding: 2px 10px;
     border: 0;
     margin-bottom: 5px;
-    font-family: 'Catamaran';
+    font-family: 'Josefin Sans';
     font-size: 18px;
 }
 
@@ -2111,13 +2060,13 @@ a.readmore-link-c {
 .item-page-quem-somos p {
     line-height: 1.2;
     color: #333;
-    font-family: 'Catamaran';
+    font-family: 'Josefin Sans';
     font-size: 18px;
     margin: 0 0 10px 0;
 }
 
 .blog-depoimentos h2 {
-    font-family: 'Catamaran';
+    font-family: 'Josefin Sans';
     color: #003c21;
     text-decoration: none;
     line-height: 1;
@@ -2125,7 +2074,7 @@ a.readmore-link-c {
 }
 
 .blog-depoimentos h4 {
-    font-family: 'Catamaran';
+    font-family: 'Josefin Sans';
     color: #003c21;
     text-decoration: none;
     line-height: 1;
@@ -2136,7 +2085,7 @@ a.readmore-link-c {
 .blog-depoimentos p {
     line-height: 1.2;
     color: #333;
-    font-family: 'Catamaran';
+    font-family: 'Josefin Sans';
     font-size: 18px;
     margin: 0 0 10px 0;
 }
@@ -2175,7 +2124,7 @@ a.readmore-link-c {
 }
 
 .menu-informe-se li.active a {
-    font-family: 'Catamaran';
+    font-family: 'Josefin Sans';
 }
 
 .menu-informe-se li.active a:hover {
@@ -2184,7 +2133,7 @@ a.readmore-link-c {
 
 .menu-informe-se li a {
     color: #003c21;
-    font-family: 'Catamaran';
+    font-family: 'Josefin Sans';
     font-size: 24px;
     line-height: 1.2;
     text-decoration: none;
@@ -2209,7 +2158,7 @@ a.readmore-link-c {
 
 .blog-noticias-agriculas h2 a, .item-page-noticias-agriculas h2 {
     color: #003c21;
-    font-family: 'Catamaran';
+    font-family: 'Josefin Sans';
     font-size: 26px;
     line-height: 1.2;
     text-decoration: none;
@@ -2217,7 +2166,7 @@ a.readmore-link-c {
 
 .blog-noticias-agriculas .published, .item-page-noticias-agriculas .published {
     color: #003c21;
-    font-family: 'Catamaran';
+    font-family: 'Josefin Sans';
     font-size: 14px;
 }
 
@@ -2227,7 +2176,7 @@ a.readmore-link-c {
 
 .blog-noticias-agriculas h4, .item-page-noticias-agriculas h4 {
     color: #003c21;
-    font-family: 'Catamaran';
+    font-family: 'Josefin Sans';
     font-size: 18px;
     line-height: 1.2;
     text-decoration: none;
@@ -2237,7 +2186,7 @@ a.readmore-link-c {
 .blog-noticias-agriculas p, .item-page-noticias-agriculas p {
     line-height: 1.2;
     color: #333;
-    font-family: 'Catamaran';
+    font-family: 'Josefin Sans';
     font-size: 18px;
     margin: 0 0 10px 0;
 }
@@ -2261,7 +2210,7 @@ a.readmore-link-c {
 }
 
 .item-page-noticias-agriculas h5 {
-    font-family: 'Catamaran';
+    font-family: 'Josefin Sans';
     color: #003c21;
     font-size: 14px;
 }
@@ -2287,7 +2236,7 @@ a.readmore-link-c {
 .blog-informe-cisbra .category-desc p {
     line-height: 1.2;
     color: #333;
-    font-family: 'Catamaran';
+    font-family: 'Josefin Sans';
     font-size: 18px;
     margin: 0 0 10px 0;
 }
@@ -2339,13 +2288,13 @@ a.readmore-link-c {
     text-align: center;
     text-decoration: none;
     color: #fff;
-    font-family: 'Catamaran';
+    font-family: 'Josefin Sans';
     font-size: 24px;
 }
 
 .titulo-contato h2 {
     text-decoration: none;
-    font-family: 'Catamaran';
+    font-family: 'Josefin Sans';
     font-size: 20px;
     text-align: center;
 }
@@ -2362,7 +2311,7 @@ a.readmore-link-c {
     margin-bottom: 8px;
     border: 0;
     background-color: #eee;
-    font-family: 'Catamaran';
+    font-family: 'Josefin Sans';
     font-size: 18px;
 }
 
@@ -2377,15 +2326,14 @@ a.readmore-link-c {
     display: none;
     position: absolute;
     visibility: hidden;
-    right: 30px;
-    bottom: 1px;
+    right: 0;
+    bottom: 8px;
 }
 
 #gotomenu {
     padding: 3px 8px;
     border-radius: 5px;
-    background-color: transparent;
-    border: 1px #FFF solid;
+    background-color: #5b5b5f;
     cursor: pointer;
     display: table;
     line-height: 1;
@@ -2395,6 +2343,7 @@ a.readmore-link-c {
     font-size: 24px;
     color: #fff;
     vertical-align: text-bottom;
+    padding-right: 1px;
 }
 
 .menuresp {
@@ -2407,7 +2356,6 @@ a.readmore-link-c {
     list-style: none;
     padding: 10px 0;
     margin: 0;
-    background-color: rgba(0, 0, 0, 0.5);
     display: block;
 }
 
@@ -2426,7 +2374,6 @@ a.readmore-link-c {
 }
 
 .menuresp ul li:hover {
-    background-color: rgba(0, 0, 0, 0.2);
 }
 
 .menuresp ul li img {
@@ -2450,15 +2397,15 @@ a.readmore-link-c {
     width: 24px;
 }
 
-.menuresp li.active a, .menuresp li.active span {
-    color: #FFF;
+.menuresp li.active a, .menuresp li.active span, .menuresp li.active a:hover, .menuresp li.active span:hover, .menuresp li a:hover, .menuresp li span:hover {
+    color: #000;
     font-weight: 600;
 }
 
 .menuresp a, .menuresp span {
     text-align: center;
-    color: #FFF;
-    font-family: 'Catamaran';
+    color: #67666a;
+    font-family: 'Josefin Sans';
     font-weight: 500;
     font-size: 18px;
     text-decoration: none;
@@ -2481,39 +2428,6 @@ a.readmore-link-c {
 .menuresp a:hover, .menuresp span:hover, .menuresp li.active ul li a:hover {
     text-decoration: none !important;
     background-color: transparent;
-}
-
-.color-grey {
-    color: #504f51!important;
-}
-
-.color-grey:hover {
-    color: #2f2a29!important;
-}
-
-.border-blue {
-    border-color: #004b81!important;
-}
-
-.color-blue {
-    color: #004b81!important;
-}
-
-.color-blue:hover {
-    color: #003e6b!important;
-}
-
-.btn-cotacao.color-blue:hover {
-    color: #FFF!important;
-    background-color: #004b81!important;
-}
-
-#topmenu a.border-grey {
-    border-color: transparent!important;
-}
-
-#topmenu a.border-grey:hover {
-    border-color: #2f2a29!important;
 }
 
 .btn.btn-logo-rodape {
@@ -2731,7 +2645,7 @@ a.readmore-link-c {
     .contact-form input, .contact-form textarea {
         font-size: 16px;
     }
-    .img-fulltext-right, .img-intro-right{
+    .img-fulltext-right, .img-intro-right {
         float: none;
         margin: 0 auto 10px auto;
         display: table;
