@@ -1,0 +1,69 @@
+#list-kinships {
+    background-position: center;
+    background-size: cover;
+    padding: 40px 0;
+    border-radius: 10px;
+}
+
+.main-kinships {
+    display: table;
+    width: 100%;
+    text-align: center;
+}
+
+.parents {
+    display: block;
+    padding: 5px 10px;
+    font-size: 14px;
+    max-width: 120px;
+    text-align: center;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.main-family {
+    display: inline-block;
+}
+
+.child-kinships {
+    display: inline-block;
+    vertical-align: top;
+}
+
+.spouse-kinships {
+    display: inline-block;
+    vertical-align: top;
+}
+
+.childrens-kinships {
+    margin-top: 60px;
+}
+
+.pair-kinships {
+    display: inline-block;
+    margin: 0 15px 20px 15px;
+    border-radius: 5px;
+    border: 1px solid #ddd;
+    line-height: 1.4;
+    padding: 15px 10px 5px 10px;
+    background-color: rgba(255, 255, 255, 0.8);
+}
+
+.photo {
+    width: 80px;
+    height: 80px;
+    background-position: center;
+    background-size: cover;
+    border-radius: 50%;
+    margin: auto;
+}
+
+.photo.death {
+    -webkit-filter: grayscale(100%);
+    filter: grayscale(100%);
+}
+
+.main-family .photo {
+    width: 100px;
+    height: 100px;
+}

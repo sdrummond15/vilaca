@@ -45,7 +45,9 @@ $document->addScript('components/com_kinships/assets/js/script.js');
                 <div class="span12">
                     <div class="row-fluid form-horizontal-desktop">
                         <div class="span6">
+                            <?php echo $this->form->renderField('first_name'); ?>
                             <?php echo $this->form->renderField('photo'); ?>
+                            <?php echo $this->form->renderField('image_back'); ?>
                             <?php echo $this->form->renderField('gender'); ?>
                             <?php echo $this->form->renderField('birth_date'); ?>
                             <?php echo $this->form->renderField('death_date'); ?>
