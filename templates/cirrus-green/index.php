@@ -14,7 +14,7 @@ $document->addStyleSheet($this->baseurl . '/templates/' . $this->template . '/cs
 $document->addStyleSheet($this->baseurl . '/templates/' . $this->template . '/css/bootstrap.min.css');
 $document->addStyleSheet($this->baseurl . '/templates/' . $this->template . '/css/template.css');
 $document->addScript($this->baseurl . '/templates/' . $this->template . '/js/sfhover.js');
-$document->addScript($this->baseurl . '/templates/' . $this->template . '/js/jquery-1.11.3.js');
+$document->addScript($this->baseurl . '/templates/' . $this->template . '/js/popover.min.js');
 $document->addScript($this->baseurl . '/templates/' . $this->template . '/js/bootstrap.min.js');
 $document->addScript($this->baseurl . '/templates/' . $this->template . '/js/script_main.js');
 

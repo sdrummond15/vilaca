@@ -359,6 +359,7 @@ hr {
 
 #contact-form button.validate:hover, #login-form input.button:hover, #mailto-window button:hover, #member-profile button.validate:hover, #member-registration button.validate:hover, #searchForm button:hover, #user-registration button.validate:hover, .btn:hover, .login button:hover, .logout button:hover {
     background-color: #000;
+    color: #FFF;
 }
 
 p.link-c {
@@ -375,7 +376,7 @@ p.link-c {
     position: fixed;
     top: 0;
     left: 0;
-    z-index: 9999;
+    z-index: 98;
     transition: all .2s;
     background-image: url('../../../images/vintage_texture.jpg');
     background-position: top center;
@@ -604,7 +605,6 @@ p.link-c {
 #content-menu_wrap {
     width: 1170px;
     margin: auto;
-    position: relative;
     z-index: 2;
 }
 
@@ -2462,6 +2462,18 @@ a.readmore-link-c {
 
 .custom-rastrear:hover img {
     transform: scale(1.02);
+}
+
+a.back {
+    cursor: pointer;
+    margin-bottom: 10px;
+    font-size: 14px;
+    color: #666 !important;
+    display: table;
+}
+
+a.back:hover{
+    color: #000 !important;
 }
 
 @media screen and (max-width:1200px) {

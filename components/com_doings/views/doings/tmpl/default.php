@@ -50,10 +50,16 @@ $document = JFactory::getDocument();
     </div>
     <div id="list-doings">
         <?php foreach ($this->doings as $doing): ?>
+            <?php
+            $image = 'images/eventos/sem_imagem.jpg';
+            if (!empty($doing->image)) {
+                $image = $doing->image;
+            }
+            ?>
             <div class="doing">
                 <div class="doing-img">
                     <a href="<?php echo JRoute::_('index.php?option=com_doings&view=evento&id=' . $doing->id); ?>">
-                        <span style="background-image: url(<?= $doing->image; ?>)"></span>
+                        <span style="background-image: url(<?= $image; ?>)"></span>
                     </a>
                 </div>
                 <div class="doing-desc">

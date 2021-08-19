@@ -14,7 +14,6 @@ class KinshipsViewKinships extends JViewLegacy {
 
         $doc = JFactory::getDocument();
         $doc->addStyleSheet('components/com_kinships/css/style.css');
-        $doc->addScript('components/com_kinships/js/script.js');
         parent::display($tpl);
     }
 }

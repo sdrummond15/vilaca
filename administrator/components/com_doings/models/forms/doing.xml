@@ -33,7 +33,6 @@
                type="media"
                directory="eventos"
                label="JFIELD_IMAGE_LABEL"
-               required="true"
         />
 
         <field name="date_start"

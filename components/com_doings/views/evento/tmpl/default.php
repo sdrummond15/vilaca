@@ -5,7 +5,7 @@ $document = JFactory::getDocument();
 foreach ($this->evento as $evento): ?>
     <div class="evento">
         <?php
-        $image = 'images/amda.jpg';
+        $image = 'images/eventos/sem_imagem.jpg';
         if (!empty($evento->image)) {
             $image = $evento->image;
         }
