@@ -239,6 +239,11 @@ class KinshipsModelKinship extends JModelAdmin
             return false;
         }
 
+        //Verifica se só possui um único conjuge
+        if(isset($data['id_spouse']) && !empty($data['id_spouse']) && $this->validaUnicoConjuge($data['id_spouse'])) {
+            $this->setError(JText::_($this->validaUnicoConjuge($data['id_spouse']).' já é casado(a)!'));
+            return false;
+        }
 
         if (parent::save($data)) {
 
@@ -263,6 +268,25 @@ class KinshipsModelKinship extends JModelAdmin
     {
         $dateStart = explode('-',$date);
         return $dateStart[2].'/'.$dateStart[1].'/'.$dateStart[0];
+    }
+
+    public function validaUnicoConjuge($conjuge)
+    {
+        if(!empty($conjuge)){
+            $db = JFactory::getDbo();
+            $query = $db->getQuery(true);
+            $query->select('k.name');
+            $query->from('#__kinships AS k');
+                $query->where('k.id_spouse = ' . $conjuge);
+    
+            $rows = $db->setQuery($query)->loadObjectlist();
+            
+            if(count($rows) > 0){
+                return $rows[0]->name;
+            }
+        }
+
+        return false;
     }
 
 }

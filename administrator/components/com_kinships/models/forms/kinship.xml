@@ -20,23 +20,17 @@
         </field>
         <field
               name="id_parent"
-              type="sql"
+              type="Parent"
               default="0"
               label="Parente"
-              query="SELECT id, name FROM #__kinships WHERE id_spouse = 0 AND (id_parent > 0 OR id = 1)"
-              key_field="id"
-              value_field="name"
               >
-            <option value="0">Selecione seu primogenito</option>
+            <option value="0">Selecione seu pai ou mãe</option>
         </field>
         <field
               name="id_spouse"
-              type="sql"
+              type="Spouse"
               default="0"
               label="Cônjuge"
-              query="SELECT id, name FROM #__kinships WHERE id_spouse = 0 AND (id_parent > 0 OR id = 1)"
-              key_field="id"
-              value_field="name"
               >
             <option value="0">Selecione seu cônjuge</option>
         </field>
